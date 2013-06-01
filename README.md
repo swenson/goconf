@@ -3,6 +3,10 @@ goconf
 
 A configuration file template for Go.
 
+Uses the `ENV` environment variable to select the right configuration
+environment at runtime.
+Defaults to `test` if `ENV` is not set.
+
 Rather than loading XML/YAML/JSON/whatever files, use
 Go as a your configuration file.
 
